@@ -4,17 +4,33 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Form for Project</title>
+	<style type="text/css">
+		.form{
+			display:flex;
+  justify-content: center;
+		}
+
+	</style>
 </head>
 <body>
 	<img src="https://www.italiannis.com.ph/frontend/img/logo-big.png" width="30%" height="30%">
 	<form>
 
 <h1>Please fill out this form with comments and suggestions about our website</h1>
-		<textarea rows="10" cols="80">
+		<textarea rows="10" cols="80" class="form">
 			
 
 		</textarea><br>
-		<button>Submit</button>
+		Please rate our service
+		<select class="form">
+			<option>Excellent</option>
+			<option>Very Good</option>
+			<option>Moderate</option>
+			<option>Inadequate</option>
+			<option>Bad</option>
+
+		</select>
+		<button class="form">Submit</button>
 	</form>
 	<h3>Thank you!</h3>
 
